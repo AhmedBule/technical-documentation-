@@ -1,8 +1,14 @@
-#code{
-    background-color: gray;
-    color: white;
+code{
+    background-color: white;
     border: 0;
     margin: auto;
+    border: 5px solid #ddd;
+    display: block;
+    font-size: 15px;
+    word-wrap: break-word;
+    font-family: monospace;
+    line-height: 2.6;
+    padding: 1em 1.5em;
 }
 
 ul{
@@ -10,6 +16,7 @@ ul{
     padding: 0;
     
 }
+
  ul a{
      display: block;
  }
@@ -47,6 +54,9 @@ ul{
     border-right: solid;
     border-color: rgba(0, 22, 22, 0.4);
     font-size: 16px;
+    background-color: #ddd;
+    font-size: 20px;
+    color: white;
   }
 
   #main-doc {
@@ -59,5 +69,11 @@ ul{
 #list{
     text-indent: 50px;
 
+}
+
+@media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: -10px;
+    }
 }
   
