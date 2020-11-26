@@ -56,7 +56,8 @@ ul{
     margin-bottom: 110px;
   }
 
-  li{
-      font-size: 18px;
-      font-weight: bold;
-  }
+#list{
+    text-indent: 50px;
+
+}
+  
